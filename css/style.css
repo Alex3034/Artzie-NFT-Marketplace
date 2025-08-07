@@ -24,16 +24,14 @@ body::before {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .header {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .header ul {
   list-style: none;
@@ -90,7 +88,7 @@ main {
 }
 .hero h1 {
   font-family: "Belgrano", serif;
-  font-size: 55px;
+  font-size: 45px;
   line-height: 65px;
   font-weight: 400;
   padding-right: 40px;
@@ -99,8 +97,8 @@ main {
 .hero__subtitle {
   color: #8e8e8e;
   font-weight: 300;
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 .hero__buttons {
   display: flex;
@@ -131,16 +129,17 @@ main {
 }
 .featured h2 {
   font-family: "Belgrano", serif;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .featured__imgs {
   display: flex;
   justify-content: space-between;
 }
 .featured__imgs img {
-  width: 48%;
+  width: 45%;
   border: 1px solid #8e8e8e;
   padding: 4px;
+  margin-right: auto;
 }
 
 .nft {
@@ -155,15 +154,15 @@ main {
 .nft__data {
   background-color: white;
   padding: 16px;
-  margin-top: -30px;
+  margin-top: -50px;
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 .nft__header {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-bottom: 1px solid black;
 }
 .nft__owner {
@@ -192,7 +191,7 @@ main {
 }
 .nft__price-number {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 .nft__buttons {
   justify-content: space-between;
